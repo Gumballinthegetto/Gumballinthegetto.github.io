@@ -16,6 +16,8 @@ body {
 }
 
 h1 {
+    font-family: 'Operator Mono';
+    text-align:center;
     color: #364547;
     margin-bottom: 0.5em;
 }
@@ -31,9 +33,10 @@ h1 {
 
 select {
     width: 95%; height: 40px;
+    font-family: 'Operator Mono';
     font-size: 1em; cursor: pointer;
     outline: none;
-    background: #7868e6;
+    background: #101820FF;
     color: white;
     margin: 0.2em 0;
     padding: 0 1em;
@@ -43,7 +46,7 @@ select {
 
 input {
     width: 95%; height: 40px;
-    font-size: 1em; margin: 0.2em 0;
+    font-size: 2em; margin: 0.2em 0;
     border-radius: 10px;
     border: none;
     background: #edeef7;
@@ -52,8 +55,9 @@ input {
 }
 
 .btn {
-    width: 98%; height:  40px; background:  #364547;
+    width: 98%; height:  40px; background:  #F2AA4CFF;
     color: white;
+    font-family: 'Operator Mono';
     border-radius: 10px;
     border: none;
     cursor: pointer;
