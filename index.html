@@ -4,24 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
     <link rel="stylesheet" href="style.css">
-    <title>My Github Website!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>>- Currency Converter -<</h1>
-        <div class="box">
-            <div class="left_box">
-                <select name="currency" class="currency"></select>
-                <input type="number" name="" id="num">
+    <!-- Nav section -->
+    <header id="header1">
+        <img src="https://cdn-icons-png.flaticon.com/512/5977/5977591.png">
+        <nav>
+            <ul>
+                <li><a href="#mission" class="hover-nav options">Mission</a></li>
+                <li><a href="#drinks" class="hover-nav options">Featured Drinks</a></li>
+                <li><a href="#location" class="hover-nav options">Locations</a></li>
+                <li><a href="#drinks" class="hover-nav options" id="menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header section -->
+    <div class="center" id="mission">
+        <div class="center-text">
+            <h1>Our Mission</h1>
+            <h3>To inspire and nurture the human spirit - one person, one cup, and one neighborhood at a time.</h3>
+        </div>
+    </div>
+    <!-- Body section -->
+    <div class="drink-month" id="drinks">
+        <header>
+            <h1 class="hover-nav">Drinks/Snacks of the Month</h1>
+            <h3>What's lurking at the star this month?</h3>
+        </header>
+        <!-- Drinks section -->
+        <div class="products">
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77131.jpg">
+                <h3>Pink Drink</h3>
+                <p>Strawberry and açaí flavors meet creamy coconutmilk and real strawberry pieces.</p>
             </div>
-            <div class="right_box">
-                <select name="currency" class="currency"></select>
-                <input type="text" name="" id="ans" disabled>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77130.jpg">
+                <h3>Dragon Drink</h3>
+                <p>A combination of sweet mango and dragonfruit flavors with creamy coconutmilk and real dragonfruit pieces.</p>
+            </div>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77122.jpg">
+                <h3>NEW Iced Toasted Vanilla Oatmilk Shaken Espresso</h3>
+                <p>Starbucks® Blonde espresso shaken with caramelized vanilla and topped with creamy oatmilk.</p>
+            </div>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77121.jpg">
+                <h3>Iced Brown Sugar Oatmilk Shaken Espresso</h3>
+                <p>Starbucks® Blonde Espresso gets hand-shaken with brown sugar–flavored syrup and cinnamon, and then finished with oatmilk.</p>
+            </div>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77639.jpg">
+                <h3>Impossible™ Breakfast Sandwich</h3>
+                <p>Aged Cheddar, a cage-free fried egg and Impossible™ Sausage Made from Plants layered on artisanal sesame bread.*</p>
+            </div>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77640.jpg">
+                <h3>Spinach, Feta & Egg White Wrap</h3>
+                <p>Vegetarian ingredients unite in a whole-wheat wrap for a protein-rich serving.</p>
+            </div>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77644.jpg">
+                <h3>Egg White & Roasted Red Pepper Egg Bites</h3>
+                <p>Velvety, protein-packed delights with Monterey Jack cheese.</p>
+            </div>
+            <div class="product">
+                <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77645.jpg">
+                <h3>Kale & Mushroom Egg Bites</h3>
+                <p>Cage-free eggs and feel-good flavors cooked sous vide style for a velvety texture.</p>
             </div>
         </div>
-        <button class="btn" id="btn">Convert</button>
-        <script src="index.js"></script>
     </div>
+    <!-- Location section -->
+    <div class="information">
+        <h1 class="hover-nav">Locations</h1>
+        <div class="locations" id="location">
+            <div class="location">
+                <h2>Starbucks TK Avenue</h2>
+                <h4>TK Avenue Mall</h4>
+                <h4>6:30AM-9PM</h4>
+                <h4>Phnom Penh</h4>
+            </div>
+            <div class="location">
+                <h2>Starbucks Exchange Square</h2>
+                <h4>Suite S1-20&21, G/F, Exchange Square</h4>
+                <h4>7AM-9PM</h4>
+                <h4>Phnom Penh</h4>
+            </div>
+            <div class="location">
+                <h2>Starbucks Siem Reap Airport</h2>
+                <h4>Siem Reap International Airport</h4>
+                <h4>12AM-9PM</h4>
+                <h4>Siem Reap</h4>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section -->
+    <div class="contact">
+        <h2><a href="#top">Starbucks®</a></h2>
+        <h5><a href="#mail:to#">contact@starbuckscambodia.com</a></h5>
+        <span>083-850-850</span>
+    </div>
+    <!-- Footer section -->
+    <footer>
+        <p> 2022 &copy; Starbucks Cambodia. All rights reserved.</p>
+    </footer>
 </body>
 </html>
