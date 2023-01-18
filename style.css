@@ -1043,6 +1043,10 @@
         width: max-content;
         margin: auto;
       }
+
+      .content-card {
+        height: 150px;
+      }
     
     
     
@@ -1143,7 +1147,7 @@
       }
 
       .content-card {
-        height: 250px;
+        height: 180px;
       }
     
     
