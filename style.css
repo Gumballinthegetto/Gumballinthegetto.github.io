@@ -907,6 +907,7 @@
     .content-card {
       padding: 30px;
       padding-top: 25px;
+      height: 150px;
     }
   
     .interested-in-avatar-box {
@@ -938,6 +939,10 @@
    */
   
    @media (min-width: 768px) {
+
+      .content-card {
+        height: 150px;
+      }
   
       /**
        * REUSED STYLE
