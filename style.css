@@ -1141,6 +1141,10 @@
         width: 75%;
         margin: 0;
       }
+
+      .content-card {
+        height: 250px;
+      }
     
     
     
