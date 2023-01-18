@@ -4,185 +4,557 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/b0af6b3ef1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>My Personal Website for class WCT - ITE_Year3</title>
+    <link rel="shortcut icon" href="images/Gumball_n_tiger.JPG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0af6b3ef1.js" crossorigin="anonymous"></script>
+    <title>I'm Japon | Welcome to my Personal Portfolio Website</title>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <ul>
-                <li><a class="nav-link" href="#welcome-section">About</a></li>
-                <li><a class="nav-link margin-left" href="#Assignment">Assignment</a></li>
-                <li><a class="nav-link" href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <section id="welcome-section">
-            <div class="center-vertically">
-                <h1>I'm Japon | ITE-M2</h1>
-                <p>an amateur web development learner</p>
+    <!-- Sidebar -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="images/Gumball.JPG" alt="Gumball" width="65">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Phan Japon">Phan Japon</h1>
+                    <p class="title">ITE-M2 | Y3</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
             </div>
-        </section>
-        <section id="Assignments">
-            <h2 id="Assignment" class="margin-left">Assignments</h2>
-            <div class="assignment-container">
-                <h3>WCT - Lab3</h3>
-                <ul>
-                    <li>
-                        <i class="fa fa-magic" aria-hidden="true"></i>
-                        <a href="pages/color.html">color.html</a>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-at"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="pjapon24th@gmail.com" class="contact-link">pjapon24th@gmail.com</a>
+                        </div>
                     </li>
-                    <li>
-                        <i class="fa fa-book" aria-hidden="true"></i>
-                        <a href="pages/book.html">book.html</a>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-pager"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Telegram</p>
+                            <a href="+85512555469" class="contact-link">+(855) 12-555-469</a>
+                        </div>
                     </li>
-                    <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <a href="pages/timetable.html">timetable.html</a>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-calendar-week"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2002-08-31">August 31, 2002</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Based in</p>
+                            <address>Phnom Penh, Cambodia</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/sad.emo.boi" class="social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                      <a href="https://twitter.com/gumball_mayb" class="social-link">
+                          <i class="fa-brands fa-twitter"></i>
+                      </a>
+                  </li>
+                    <li class="social-item">
+                        <a href="https://github.com/Gumballinthegetto" class="social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
-	    <div class="assignment-container">
-            <h3>WCT - Lab4</h3>
-                <ul>
-                <li>
-                <i class="fa fa-link" aria-hidden="true"></i>
-                <a href="pages/link.html">link.html</a>
-                </li>
-                <li>
-                    <i class="fa fa-file-video-o" aria-hidden="true"></i>
-                        <a href="pages/video.html">video.html</a>
-                </li>
-                <li>
-                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
-                <a href="pages/register.html"> register.html</a>
-                </li>
-            </ul>
-	    </div>
-	    <div class="assignment-container">
-		    <h3>WCT - Lab5</h3>
-	        <ul>
-	  	    <li>
-			<i class="fa fa-picture-o" aria-hidden="true"></i>
-	  	  	<a href="pages/image.html">image.html</a>
-		    </li>
-		    <li>
-		        <i class="fa fa-bars" aria-hidden="true"></i>
-	            <a href="pages/v_menu.html">v_menu.html</a>
-		    </li>
-		    <li>
-		        <i class="fa fa-minus" aria-hidden="true"></i>
-			<a href="pages/h_menu.html">h_menu.html</a>
-	  	    </li>
-		    <li>
-                <i class="fa fa-address-card-o" aria-hidden="true"></i>
-                <a href="pages/contact.html">contact.html</a>
-            </li>
-		</ul>
-	    </div>
-	    <div class="assignment-container">
-		    <h3>WCT - Lab6</h3>
-	        <ul>
-                <li>
-                <i class="fa-solid fa-ellipsis"></i>
-                <a href="pages/topnav.html">topnav.html</a>
-                </li>
-                <li>
-                    <i class="fa-regular fa-images"></i>
-                    <a href="pages/image_gallery.html">image_gallery.html</a>
-                </li>
-                <li>
-                    <i class="fa-brands fa-buromobelexperte"></i>
-                    <a href="pages/layout.html">layout.html</a>
-                </li>
-		    </ul>
-	    </div>
-        <div class="assignment-container">
-		    <h3>WCT - Lab7</h3>
-	        <ul>
-                <li>
-                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                    <a href="pages/login.html">login.html</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-chalkboard"></i>
-                    <a href="pages/template.html">template.html</a>
-                </li>
-		    </ul>
-	    </div>
-        <div class="assignment-container">
-		    <h3>WCT - Lab8</h3>
-	        <ul>
-                <li>
-                    <i class="fa-regular fa-square-caret-down"></i>
-                    <a href="pages/simplemenu.html">simplemenu.html</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-arrow-down-short-wide"></i>
-                    <a href="pages/sidebar.html">sidebar.html</a>
-                </li>
-                <li>
-                    <i class="fa-regular fa-money-bill-1"></i>
-                    <a href="pages/pricing.html">pricing.html</a>
-                </li>
-		    </ul>
-	    </div>
-        <div class="assignment-container">
-		    <h3>WCT - Lab9</h3>
-	        <ul>
-                <li>
-                    <i class="fa-solid fa-list-ol"></i>
-                    <a href="pages/number_to_word.html">number_to_word.html</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-temperature-three-quarters"></i>
-                    <a href="pages/tem_converter.html">tem_converter.html</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-calculator"></i>
-                    <a href="pages/calculator.html">calculator.html</a>
-                </li>
-		    </ul>
-	    </div>
-	    <img src="https://cdn.dribbble.com/users/600626/screenshots/2944614/media/8d4704f132330112325678aeb1af4edf.gif" class="loading-gif" >
-        </section>
-        <section id="Contact">
-            <div class="center-vertically">
-                <img src="https://24.media.tumblr.com/c74c26fc85fb6b78cdbba94b00492d58/tumblr_n08txah95c1slk289o1_500.gif" alt="a cute cat gif" class="cat-gif">
-                <h1>Follow me via:</h1>
-                <div class="links">
-                    <div class="link-container">
-                        <a href="https://www.facebook.com/sad.emo.boi" target="_blank">
-                            <i class="fa fa-facebook"></i>Facebook
-                        </a>
-                    </div>
-                    <div class="link-container">
-                        <a href="https://github.com/Gumballinthegetto" id="profile-link" target="_blank">
-                            <i class="fa fa-github"></i>Github
-                        </a>
-                    </div>
-                    <div class="link-container">
-                        <a href="https://twitter.com/gumball_mayb">
-                            <i class="fa fa-twitter"></i>Twitter
-                        </a>
-                    </div>
-                    <div class="link-container">
-                        <a href="#">
-                            <i class="fa fa-envelope"></i>Gmail
-                        </a>    
-                    </div>
-                </div>
-            </div>
-        </section>
+        </aside>
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Navigiation bar -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Assignment</button>
+                    </li>
+                </ul>
+            </nav>
+            <!-- ABOUT ME -->
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <!-- SECTION: ABOUT ME TEXT -->
+                <section class="about-text">
+                    <p>
+                      Hi! I'm Japon, mostly known as Japan (cus it's less cringy zz), currently a Y3 student, majoring in ITE at Faculty of Engineering, RUPP, 
+                      a stereotypical IT student with a reallyyyy good sleep schedule (3-6), thriving to survice everyday and being nosy to most of the things
+                      that are not related to himself, in a good way, and trying to be more self-concious about him and his way of perceiving life cus he's too optimistic sometimes. 
+                    </p>
+                    <h3 id="root">The root of it all</h3>
+                    <p>
+                      Since I was a little kid, computers has always been my priotity of curiousity. I'm not gonna lie, my early interest in them was sparked by my love of video games. 
+                      But as I used computers more and more, I realized how much I enjoyed learning about how they functioned, seeing how much they were capable of, and realizing their almost endless potential. 
+                      I soon found myself spending hours tinkering with the control panel's features and browsing system folders. After learning how to program in college, my enthusiasm for computers developed even more. 
+                      When I initially built my own program, I remember the sheer joy and sense of accomplishment I experienced. It was at that time that I understood I could actually make computers do nearly anything as I desire.
+                    </p>
+                </section>
+                <!-- SECTION: GOOD AT -->
+                <section class="good-at">
+                    <h3 class="h3 good-at-title">What I'm good at</h3>
+                    <ul class="good-at-list">
+                        <li class="good-at-item">
+                            <div class="good-at-icon-box">
+                                <i class="fa-solid fa-bug-slash fa-2x"></i>
+                            </div>
+                            <div class="good-at-content-box">
+                                <h4 class="h4 good-at-item-title">Solve Coding Problem</h4>
+                                <p class="good-at-item-text">
+                                    Moderate solving skill to coding problems, but good at perceiving the information that was given.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="good-at-item">
+                            <div class="good-at-icon-box">
+                                <i class="fa-brands fa-java fa-2x"></i>
+                            </div>
+                            <div class="good-at-content-box">
+                                <h4 class="h4 good-at-item-title">Java</h4>
+                                <p class="good-at-item-text">
+                                    With the introduction of Java in Y2 until now, I can see my OOP skill has improved.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="good-at-item">
+                            <div class="good-at-icon-box">
+                                <i class="fa-regular fa-calendar-minus fa-2x"></i>
+                            </div>
+                            <div class="good-at-content-box">
+                                <h4 class="h4 good-at-item-title">Create Terminal Menu</h4>
+                                <p class="good-at-item-text">
+                                    2 years of coding in Java has introduced me with numerous assignments with menu-like related. I can say I'm pretty good at it.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="good-at-item">
+                            <div class="good-at-icon-box">
+                                <i class="fa-regular fa-file-code fa-2x"></i>
+                            </div>
+                            <div class="good-at-content-box">
+                                <h4 class="h4 good-at-item-title">CSS</h4>
+                                <p class="good-at-item-text">
+                                    Studying CSS is overwhelming at first. It still is, but less dramatic. I like CSS. Sometimes.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <!-- SECTION: INTEREST -->
+                <section class="interested-in">
+                    <h3 class="h3 interested-in-title">What I'm interested in</h3>
+                    <ul class="interested-in-list has-scrollbar">
+                      <li class="interested-in-item">
+                        <div class="content-card">
+                          <figure class="interested-in-avatar-box">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2828/2828990.png" alt="Web Development" width="60">
+                          </figure>
+                          <h4 class="h4 interested-in-item-title">Web development</h4>
+                          <div class="interested-in-text">
+                            <p>
+                              As much as I like coding, Web Development is a late bloomer for me since we started learning it late, but seeing it now, I want to know all of it.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="interested-in-item">
+                        <div class="content-card">
+                          <figure class="interested-in-avatar-box">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3137/3137783.png" alt="Mobile App Development" width="60">
+                          </figure>
+                          <h4 class="h4 interested-in-item-title">Mobile App development</h4>
+                          <div class="interested-in-text">
+                            <p>
+                              Applications in general are raising tremendously nowadays, but the roadmap of Mobile App Developer is like the jorney to the west, obstacles are everywhere. I like it.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="interested-in-item">
+                        <div class="content-card">
+                          <figure class="interested-in-avatar-box">
+                            <img src="https://cdn-icons-png.flaticon.com/512/820/820875.png" alt="Artificial Intelligence" width="60">
+                          </figure>
+                          <h4 class="h4 interested-in-item-title">Artificial Intelligence</h4>
+                          <div class="interested-in-text">
+                            <p>
+                              The most cliché word of all time, AI, Artificial Intelligence. You might have seen those people doing the AI trend on tiktok recently. Yep, that's AI. Intested? Yes.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="interested-in-item">
+                        <div class="content-card">
+                          <figure class="interested-in-avatar-box">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2232/2232241.png" alt="Database Management" width="60">
+                          </figure>
+                          <h4 class="h4 interested-in-item-title">Database Management</h4>
+                          <div class="interested-in-text">
+                            <p>
+                              Database, a base for data. I'm so funny sometimes. I feel like knowing how to query mysql's code gives me the feeling of satisfaction. I would like to learn more about it.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                </section>
+            </article>
+            <!-- ASSIGNMENT -->
+            <article class="assignment" data-page="assignment">
+                <header>
+                  <h2 class="h2 article-title">Assignment</h2>
+                </header>
+                <section class="projects">
+                  <ul class="filter-list">
+                    <li class="filter-item">
+                      <button class="active" data-filter-btn>All</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 3</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 4</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 5</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 6</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 7</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 8</button>
+                    </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Lab 9</button>
+                    </li>
+                  </ul>
+                  <div class="filter-select-box">
+                    <button class="filter-select" data-select>
+                      <div class="select-value" data-select-value>Select category</div>
+                      <div class="select-icon">
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </div>
+                    </button>
+                    <ul class="select-list">
+                      <li class="select-item">
+                        <button data-select-item>All</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 3</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 4</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 5</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 6</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 7</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 8</button>
+                      </li>
+                      <li class="select-item">
+                        <button data-select-item>Lab 9</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <ul class="project-list">
+                    <li class="project-item  active" data-filter-item data-category="lab 3">
+                      <a href="pages/color.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab3_color.png" alt="finance" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">color</h3>
+                        <p class="project-category">Lab 3</p>
+                      </a>
+                    </li>
+                    <li class="project-item  active" data-filter-item data-category="lab 3">
+                      <a href="pages/book.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab3_book.png" alt="orizon" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">book</h3>
+                        <p class="project-category">Lab 3</p>
+                      </a>
+                    </li>
+                    <li class="project-item  active" data-filter-item data-category="lab 3">
+                      <a href="pages/timetable.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab3_timetable.png" alt="fundo" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">timetable</h3>
+                        <p class="project-category">Lab 3</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 4">
+                      <a href="pages/link.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab4_link.png" alt="brawlhalla" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">link</h3>
+                        <p class="project-category">Lab 4</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 4">
+                      <a href="pages/video.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab4_video.png" alt="dsm." loading="lazy">
+                        </figure>
+                        <h3 class="project-title">video</h3>
+                        <p class="project-category">Lab 4</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 4">
+                      <a href="pages/register.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab4_register.png" alt="metaspark" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">register</h3>
+                        <p class="project-category">Lab 4</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 5">
+                      <a href="pages/image.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab5_image.png" alt="summary" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">image</h3>
+                        <p class="project-category">Lab 5</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 5">
+                      <a href="pages/v_menu.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab5_v_menu.png" alt="task manager" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">v_menu</h3>
+                        <p class="project-category">Lab 5</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 5">
+                      <a href="#">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab5_h_menu.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">h_menu</h3>
+                        <p class="project-category">Lab 5</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 5">
+                      <a href="pages/contact.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab5_contact.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">contact</h3>
+                        <p class="project-category">Lab 5</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 6">
+                      <a href="pages/topnav.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab6_topnav.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">topnav</h3>
+                        <p class="project-category">Lab 6</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 6">
+                      <a href="pages/image_gallery.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab6_image_gallery.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">image gallery</h3>
+                        <p class="project-category">Lab 6</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 6">
+                      <a href="pages/layout.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab6_layout.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">layout</h3>
+                        <p class="project-category">Lab 6</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 7">
+                      <a href="pages/login.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab7_login.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">login</h3>
+                        <p class="project-category">Lab 7</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 7">
+                      <a href="pages/template.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab7_template.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">template</h3>
+                        <p class="project-category">Lab 7</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 8">
+                      <a href="pages/simplemenu.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab8_simplemenu.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">simplemenu</h3>
+                        <p class="project-category">Lab 8</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 8">
+                      <a href="pages/sidebar.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab8_sidebar.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">sidebar</h3>
+                        <p class="project-category">Lab 8</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 8">
+                      <a href="pages/pricing.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab8_pricing.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">pricing</h3>
+                        <p class="project-category">Lab 8</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 9">
+                      <a href="pages/number_to_word.html">        
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab9_number_to_word.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">number_to_word</h3>
+                        <p class="project-category">Lab 9</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 9">
+                      <a href="pages/tem_converter.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab9_tem_converter.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">tem_converter</h3>
+                        <p class="project-category">Lab 9</p>
+                      </a>
+                    </li>
+                    <li class="project-item active" data-filter-item data-category="lab 9">
+                      <a href="pages/calulator.html">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <img src="images/lab9_calculator.png" alt="arrival" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">calculator</h3>
+                        <p class="project-category">Lab 9</p>
+                      </a>
+                    </li>
+                  </ul>
+                </section>
+            </article>
+        </div>
     </main>
-    <footer>
-        <p>&copy; Created by P. Japan</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="javascript/index.js"></script>
 </body>
 </html>
