@@ -306,12 +306,13 @@ input:not(input[type="checkbox"]) {
     height: auto;
 }
 
-@media (min-width: 450px) and (max-width: 650px) {
+@media (min-width: 400px) and (max-width: 650px) {
     .grid {
         display: block;
     }
 
     .left {
+        min-width: 250px;
         max-width: 350px;
     }
 
