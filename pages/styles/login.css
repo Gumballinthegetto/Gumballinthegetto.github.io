@@ -318,6 +318,10 @@ input:not(input[type="checkbox"]) {
     .middle {
         left: 2%;
     }
+
+    .right {
+        display: none;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 650px) {
