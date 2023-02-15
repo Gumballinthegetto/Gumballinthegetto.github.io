@@ -310,11 +310,7 @@ input:not(input[type="checkbox"]) {
     .grid {
         display: block;
     }
-
-    .left {
-        max-width: 350px;
-    }
-
+    
     .middle {
         left: 2%;
     }
