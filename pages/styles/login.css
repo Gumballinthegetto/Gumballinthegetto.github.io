@@ -306,31 +306,13 @@ input:not(input[type="checkbox"]) {
     height: auto;
 }
 
-@media (max-width: 400px) {
-    .grid {
-        display: block;
-    }
-
-    .left {
-        max-width: 300px;
-    }
-
-    .middle {
-        left: 2%;
-    }
-
-    .right {
-        display: none;
-    }
-}
-
 @media (min-width: 400px) and (max-width: 650px) {
     .left {
-        max-width: 350px;
+        width: 350px;
     }
 
     .middle {
-        left: 35%;
+        left: 20%;
     }
 
     .right {
