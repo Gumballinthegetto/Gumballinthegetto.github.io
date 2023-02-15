@@ -306,7 +306,7 @@ input:not(input[type="checkbox"]) {
     height: auto;
 }
 
-@media screen and (min-width: 480px) and (max-width: 650px) {
+@media screen and (min-width: 450px) and (max-width: 650px) {
     .grid {
         display: block;
     }
