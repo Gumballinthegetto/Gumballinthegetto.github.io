@@ -312,7 +312,7 @@ input:not(input[type="checkbox"]) {
     }
 
     .left {
-        max-width: 350px;
+        max-width: 300px;
     }
 
     .middle {
@@ -327,6 +327,10 @@ input:not(input[type="checkbox"]) {
 @media (min-width: 400px) and (max-width: 650px) {
     .left {
         max-width: 350px;
+    }
+
+    .middle {
+        left: 35%;
     }
 
     .right {
