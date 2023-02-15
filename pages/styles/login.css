@@ -311,6 +311,10 @@ input:not(input[type="checkbox"]) {
         display: block;
     }
 
+    .left {
+        max-width: 350px;
+    }
+
     .middle {
         left: 2%;
     }
