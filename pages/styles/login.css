@@ -316,8 +316,7 @@ input:not(input[type="checkbox"]) {
     }
 
     .middle {
-        display: block;
-        margin: 0 auto;
+        left: 2%;
     }
 }
 
