@@ -68,12 +68,15 @@ body {
 }
 
 .left header {
-    font-weight: normal;
     border-right: 2px solid var(--bold-color-black);
     border-bottom: 2px solid var(--bold-color-black);
     padding: 10px;
     color: var(--bold-color-FE-logo);
     width: fit-content;
+}
+
+.left header h1 {
+    font-weight: normal;
 }
 
 .secondary {
@@ -313,7 +316,7 @@ input:not(input[type="checkbox"]) {
     }
 
     form {
-        border-radius: none;
+        border-radius: 0%;
     }
 
     .middle {
