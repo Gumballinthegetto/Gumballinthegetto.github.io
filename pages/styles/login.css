@@ -307,6 +307,10 @@ input:not(input[type="checkbox"]) {
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
+    .grid {
+        display: block;
+    }
+
     .middle {
         left: 5%;
     }
