@@ -312,7 +312,7 @@ input:not(input[type="checkbox"]) {
     }
 
     .middle {
-        left: 2%;
+        left: 0;
     }
 
     .right {
