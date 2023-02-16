@@ -306,13 +306,13 @@ input:not(input[type="checkbox"]) {
     height: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .middle {
         left: 5%;
     }
 }
 
-@media (min-width: 400px) and (max-width: 650px) {
+@media (min-width: 500px) and (max-width: 650px) {
     .left {
         width: 350px;
     }
