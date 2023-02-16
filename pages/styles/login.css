@@ -68,6 +68,7 @@ body {
 }
 
 .left header {
+    font-weight: normal;
     border-right: 2px solid var(--bold-color-black);
     border-bottom: 2px solid var(--bold-color-black);
     padding: 10px;
@@ -309,6 +310,10 @@ input:not(input[type="checkbox"]) {
 @media (min-width: 300px) and (max-width: 500px) {
     .grid {
         display: block;
+    }
+
+    form {
+        border-radius: none;
     }
 
     .middle {
