@@ -742,6 +742,16 @@ main {
 \*-----------------------------------*/
 
 /**
+ * responsive smaller than 450px screen
+ */
+ @media (max-width: 450px) {
+  
+  .article-title.none {
+    display: none;
+  }
+ }
+
+/**
  * responsive larger than 450px screen
  */
 
